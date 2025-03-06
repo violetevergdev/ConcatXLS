@@ -1,0 +1,16 @@
+[project]
+name = "concatxls"
+version = "0.1.0"
+description = "Concatenation XLS and unload only needed data"
+readme = "README.md"
+requires-python = ">=3.8.7"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "xlrd>=2.0.1",
+    "xlsxwriter>=3.2.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pyinstaller>=6.12.0",
+]
